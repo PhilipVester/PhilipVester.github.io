@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/sliderStyle.css">
+    <title>Philip Vesterlund</title>
+</head>
+<body>
+    <header>
+        <a class="navText" href="#myName">Me</a>
+        <a class="navText" href="#education">Education</a>
+        <a class="navText" href="#experience">Work Experience</a>
+        <a class="navText" href="#projects">Projects</a>
+    </header>
+    <div class="container" id="myName">
+        <div class="title-Container" id="myTitle-Container">
+            <h1>Philip Vesterlund</h1>
+        </div>
+        <div class="info-Container" id="myInfo">
+            <div id="profilePicture-Container">
+                <img id="profilePicture" src="images/Profilbild.jpg">
+            </div>
+            <div id="myText-Container">
+                <div id="myTextTitle">
+                    <h2>Full name:</h2>
+                    <h2>Birthdate: </h2>
+                    <h2>Address:</h2>
+                    <h2>Postnumber:</h2>
+                </div>
+                <div id="myTextInfo">
+                    <h2>Philip Anders Assar Vesterlund</h2> 
+                    <h2>09/12/1999</h2>
+                    <h2>Grönahögsvägen 11</h2>
+                    <h2>52334</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="education">
+        <div class="info-Container" id="educationInfo">
+            <div class="slideshow-container">
+
+                <!-- Full-width slides/quotes -->
+                <div class="mySlides">                   
+                    <h2>Gymnasium - Technologyprogram(Productiontechnology) At Tingsholmsgymnasiet</h2>
+                    <h3>The technology program fokuses on understanding problemsolving, the relation between technology and society.
+                        Also focusing alot on math and physics. With specialization in productiontechnology, i also learned a lot of 3D CAD, 2D CAD, CNC machening.
+                    </h3>
+                    <div class="date">Aug 2015-Jun 2018</div>
+                </div>
+              
+                <div class="mySlides">
+                    <h2>Gymnasiumcourse - Programing 1</h2>
+                    <h3>This course gave me understanding about the basics of probraming and how to think when creating different solutions.
+                        I also learned basic C# syntax.
+                    </h3>
+                    <div class="date">Apr 2019-Jun 2019</div>
+                </div>
+              
+                <div class="mySlides">
+                    <h2>YH Borås - Softwaredeveloper .NET</h2>
+                    <h3>During my education i have learnt how to program logic with C#, websites with html, css, sass and javascript, 
+                        make applications in Xamarin forms and build my own database in both SQL and noSQL structure. 
+
+                        During my LIA1 I was at a company called “PlayAlong” for a month where I got to do simple fixes and additions on and to their website. 
+                        I got to be a part of the team and take part in meetings with the whole company and daly scrum with the development team.                        
+                    </h3>
+                    <div class="date">Sep 2019-Jun 2021</div>
+                </div>
+              
+                <!-- Next/prev buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              
+        </div>
+        <div class="title-Container" id="educationTitle-Container">
+            <h1>Education</h1>
+        </div>
+    </div>
+    <div class="container" id="experience">
+        <div class="title-Container" id="experienceTitle-Container">
+            <h1>Work Experience</h1>
+        </div>
+        <div class="info-Container">
+            <div id="myText-Container">
+                <div class="slideshow-container2">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides2">                   
+                        <a href="http://www.finstansteknik.se/default.aspx?navId=36">Finstansteknik</a>
+                        <h3>Finstansteknik is a press tooling company where I worked during my Gymnasium Studies during holidays.
+                            I spent a lot of time maintaining the machines, keeping the facility as clean as possible, painting tools and polish parts.
+                        </h3>
+                        <h3>Nader Laalinia (VD)  +4670 358 76 59</h3>
+                        <h3>nader@finstansteknik.se</h3>
+                        <div class="date"> Feb 2015-Aug 2018</div>
+                    </div>
+                  
+                    <div class="mySlides2">
+                        <a>Stenbocksskolan Substitute Teacher</a>
+                        <h3> As a substitute at Stenbocksskolan, I have had classes in high school(ages 12-16) which taught me how to better lead and take control. 
+                            It also taught me how to present myself in a way that makes people view me as someone worth listening to and respect as youths in that age is not the easiest. 
+                        </h3>
+                        <h3>Ellinor Lindahl (skoladministratör) +0321-595368
+                        </h3>
+                        <h3>Ellinor.Lindahl@ulricehamn.se</h3>
+                        <div class="date">Feb 2019-Jun 2019</div>
+                    </div>
+                  
+                    <div class="mySlides2">
+                        <a>CircleK</a>
+                        <h3>Working at CircleK has been extremely educational as I have learned to take care of a whole gas station myself.
+                            That implies customer service, cooking, baking, cleaning, quality controls, warehouse work and problem solving for when things don't go to plan.
+                            I have largely worked nights at the gas station so uncomfortable working hours is not a problem and that finishing your assignments for the day is the main priority, even if that means putting in overtime.
+                            </h3>
+                        <h3>Eleonor Gerstenmayer (Station manager) +4672 241 69 40 </h3>
+                        <h3>elege@ciclekeurope.com </h3>
+                        <div class="date">Sep 2019-Jun 2021</div>
+                    </div>
+                  
+                    <!-- Next/prev buttons -->
+                    <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="projects">
+        <div class="info-Container" id="projectsInfo-Container">
+
+            <div class="slideshow-container3">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides3">                   
+                        <div class="project-Container">
+                            <img src="./images/hej-morsan_project.jpg" alt="hej-morsan_project" class="image">
+                            <div class="overlay">
+                              <div id="project-text">
+                                    <h2>This project was about making a service to help you keep in contact with your family.</h2>
+                                    <a href="https://github.com/killefick/Assignment-Hej-Morsan">To Github</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  
+                    <div class="mySlides3">
+                        <div class="project-Container">
+                            <img src="./images/NuTrello_project.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                                <div id="project-text">
+                                    <h2>This is as the name implies a reimagination of trello</h2>
+                                    <a href="https://github.com/Johkie/kanban-meta-g2">To Github</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  
+                    <div class="mySlides3">
+                        <div class="project-Container2">
+                            <img src="./images/Screenshot_login.png" alt="hej-morsan_project" class="image2">
+                            <img src="./images/Screenshot_shopinglist.png" alt="Avatar" class="image2">
+                            <div class="overlay">
+                                <div id="project-text">
+                                    <h2>WNTB or "we need to buy" is a WIP(work in progress) app that lets you create shopinglist that you can invite friends, family or whoever you whant to have competence to add, remove or check items on your shopinglist.</h2>
+                                    <a href="https://github.com/Johkie/kanban-meta-g2">To Github</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  
+                    <!-- Next/prev buttons -->
+                    <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+            </div>
+        </div>
+        <div class="title-Container" id="projectsTitle-Container">
+            <h1>Projects</h1>
+        </div>
+    </div>
+    <div id="contacts-Container">
+        <div class="contact-Container">
+            <h1 id="contactMeText">Contact me at: </h1>
+            <div class="logoText" id="mobileNumber">
+                <h2>Mobile (+46)76 411 70 65  </h2>
+            </div>
+            <a class="logoText" href="https://github.com/Philip-vester">
+                <h2>Github</h2>   
+                <img class="link_Logo" src="./images/github.png" alt="github_Logo">
+            </a>
+            <a class="logoText" href="https://www.linkedin.com/in/philip-vesterlund-1596511b6/">
+                <h2>LinkedIn</h2>
+                <img class="link_Logo" src="./images/LinkedIn.png" alt="LinkedIn_Logo">
+            </a>
+            <a class="logoText" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=phvesterlund@gmail.com&tf=1">
+                <h2>Email</h2>
+                <img class="link_Logo" src="./images/mail.png" alt="mail_logo">
+            </a>
+            
+        </div>
+    </div>
+    
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex-1].style.display = "block";  
+
+}
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  if (n > slides.length) {slideIndex2 = 1}    
+  if (n < 1) {slideIndex2 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex2-1].style.display = "block";  
+
+}
+var slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+
+function showSlides3(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides3");
+  if (n > slides.length) {slideIndex3 = 1}    
+  if (n < 1) {slideIndex3 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slides[slideIndex3-1].style.display = "block";  
+
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+$mainColor: #FDFFFC;
+$backgroundColor:#011627;
+$footerColor:#AABAEA;
+$accentColor1: #7f23f9;
+$accentColor2: #2EC4B6;
+$accentColor3: #F97F23;
+$accentColor4: #23f97f;
+
+
+a{
+    all: unset;
+    margin: 1em 3em 0 0;
+    font-size: 1.5rem;
+    color: $backgroundColor;
+    transition: 0.3s;
+}
+html{
+    height: 100%;
+}
+body{
+    background: $mainColor;
+    color: $mainColor;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+header{
+    background: $mainColor;
+    color: $backgroundColor;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navText:hover{
+    color: $accentColor2;
+}
+.container {
+    background: $backgroundColor;
+    height: 90%;
+    display: flex;
+}
+.title-Container {
+    width: 50%;
+    height: 100%;
+}
+.info-Container{
+    width: 50%;
+    height: 100%;
+}
+
+#contacts-Container h1{
+    font-weight: 500;
+    font-size: 38px;
+}
+#contacts-Container h2{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+#contacts-Container{
+    background: $footerColor;
+    height: 15%;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+
+.contact-Container{
+    display:flex;
+    justify-content: space-around;
+    margin-top: auto;
+    display: flex;
+}
+
+.title-Container h1{
+    color: $mainColor;
+    font-size: 4.2rem;
+    margin: 25% 0 0 2em;
+    font-weight: 400;
+}
+
+#myInfo{
+    display: flex;
+    flex-direction: column;
+}
+#profilePicture-Container{
+    margin: 10% 0 0 50%;    
+}
+#profilePicture{
+    height: 260px;
+    width: 260px;
+    border-radius: 120px;
+}
+#myTitle-Container{
+    background: linear-gradient( 90deg, $accentColor1, transparent );
+}
+#myText-Container{
+    margin: 0 0 0 15%;
+    display: flex;
+}
+#myTextTitle h2{
+    font-weight: 400;
+}
+#myTextInfo{
+    margin: 0 0 0 10%;
+}
+#myTextInfo h2{
+    font-weight: 300;
+}
+#educationTitle-Container{
+    background-image: linear-gradient(90deg, transparent, $accentColor2);
+}
+#experienceTitle-Container{
+    background-image: linear-gradient(90deg, $accentColor3, transparent);
+}
+#projectsTitle-Container{
+    background-image: linear-gradient(90deg, transparent, $accentColor4);
+}
+.slideshow-container{
+    margin: 20% 0 0 15%;
+}
+.slideshow-container2{
+    margin: 15% 15% 0 0 ;
+}
+.slideshow-container3{
+    margin: 10% 0 0 15%;
+}
+.mySlides{
+    width: auto;
+    height: 380px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.mySlides2{
+    width: auto;
+    height: 420px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.mySlides3{
+    width: 510px;
+    height: 420px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.mySlides h2{
+    font-weight: 400;
+}
+.mySlides h3{
+    font-weight: 300;
+}
+.mySlides2 a{
+    font-weight: 400;
+    color: $mainColor;
+    font-size: 26px;
+    cursor: pointer;
+}
+.mySlides2 h3{
+    font-weight: 300;
+}
+.project-Container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+.project-Container2 {
+    display: flex;
+    position: relative;
+    width: auto;
+    height: 100%;
+  }
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image2 {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.link_Logo{
+    display: block;
+    width: auto;
+    height: 48px;
+    margin: 20px 20px 20px 0px;
+}
+.logoText h2:hover{
+    color:$accentColor2;
+}
+
+.logoText{
+    display: flex;
+    margin: 0px;
+    margin-top: 5px;
+}
+#mobileNumber{
+    margin-right: 20px;
+}
+#contactMeText{
+    margin-right: 40px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $backgroundColor;
+    opacity: 0.8;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.project-Container:hover .overlay {
+    width: 100%;
+}
+.project-Container2:hover .overlay {
+    width: 100%;
+}
+#project-text{
+    padding: 10px 0 0 10px;
+}
+#project-text a{
+    color: $mainColor;
+}
+#project-text a:hover{
+    color: $accentColor4;
+}
+#project-text h2{
+    font-weight: 300;
+}
+.prev, .next {
+    cursor: pointer;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
