@@ -34,6 +34,7 @@ header {
 
 .navText:hover {
   color: #2EC4B6;
+  cursor: pointer;
 }
 
 .container {
@@ -65,7 +66,7 @@ header {
 }
 
 #contacts-Container {
-  background: #AABAEA;
+  background: #dbdbdb;
   height: 15%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -248,7 +249,7 @@ header {
 }
 
 .logoText h2:hover {
-  color: #2EC4B6;
+  cursor: pointer;
 }
 
 .logoText {
@@ -264,7 +265,7 @@ header {
 }
 
 #contactMeText {
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .overlay {
@@ -299,6 +300,7 @@ header {
 
 #project-text a:hover {
   color: #23f97f;
+  cursor: pointer;
 }
 
 #project-text h2 {
